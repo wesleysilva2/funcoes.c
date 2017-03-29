@@ -4,7 +4,8 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-//aritimetica quest„o 2  
+//aritimetica quest√£o 2  
+
 float opera (float a, float b, int c){
        
   float z;
@@ -28,7 +29,7 @@ return (z);
       
   } 
   
-//comparaÁ„o quest„o 1 
+//compara√ß√£o quest√£o 1 
 
 int maiordedois(int num1 , int num2){
   
@@ -51,7 +52,7 @@ return (x);
 	
 }
 
-//comparaÁ„o quest„o 2
+//compara√ß√£o quest√£o 2
 
 int menordetres(int num1 , int num2, int num3){
 	
@@ -76,7 +77,7 @@ return(z);
 	
 }
 
-//aritimÈtica quest„o 1 
+//aritim√©tica quest√£o 1 
 
 float soma (int a int b){
 	
@@ -87,6 +88,53 @@ float soma (int a int b){
 	   return (c);
       
   } 
+
+//compara√ß√£o quest√£o 5
+
+int conjuntos_iguais(int ta1[], int ta2[], int valor){
+
+int i , k
+
+ for(i=0;i<valor;i++){
+
+    for(k=0;k<valor;k++){
+
+      if(ta1[i]==ta2[k]){
+
+        valor=1;
+      }
+       else{
+
+        valor=0
+
+       }
+    }
+
+ }
+
+ return valor;
+
+}
+
+//compara√ß√£o quest√£o 4
+
+int existe(int cont[20], int tamanho, int resultado){
+
+int i;
+cont=0;
+
+ for(i=0 i<tamanho i++){
+    if(cont[i]==resultado){
+      cont++
+ }
+ }
+
+
+ return cont ;
+
+}
+
+
 
 		
 	
